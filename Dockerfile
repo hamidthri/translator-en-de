@@ -8,6 +8,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-ENV TELEGRAM_BOT_TOKEN=7035003859:AAEjfFEqNhkHV6gqmjO5_krljhpTFWUTiXs
+ENV TELEGRAM_BOT_TOKEN="type your token"
 
 CMD ["python", "translate.py"]
